@@ -1,0 +1,29 @@
+{
+    "name": "neoacevedo/yii2-storage",
+    "description": "Gestión de almacenamiento para Yii2.",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "extension", "storage", "module", "upload", "file", "aws", "azure", "google"],
+    "license": "GPL-3.0+",
+    "support": {
+        "forum": "https://desk.zoho.com/portal/neoacevedo/es/home",
+        "source": "https://gitlab.com/neoacevedo/yii2-storage"
+    },
+    "authors": [
+        {
+            "name": "Néstor Acevedo",
+            "email": "clientes@neoacevedo.co"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "yiisoft/yii2": "~2.0.6",
+        "aws/aws-sdk-php": "^3.169",
+        "microsoft/azure-storage-blob": "^1.5",
+        "google/cloud-storage": "^1.20"
+    },
+    "autoload": {
+        "psr-4": {
+            "neoacevedo\\yii2\\": "neoacevedo/yii2"
+        }
+    }
+}
